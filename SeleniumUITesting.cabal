@@ -68,7 +68,8 @@ executable SeleniumUITesting
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.18.3.0, webdriver >= 0.8.5, bytestring, base64-bytestring, lua ^>= 2.3.3, hslua, mtl
+    build-depends:    text ^>=2.0.2, base ^>=4.18.3.0, webdriver >= 0.8.5, bytestring, base64-bytestring, lua ^>= 2.3.3, hslua, mtl
+
 
     -- Directories containing source files.
     hs-source-dirs:   app, app/LuaDSL
